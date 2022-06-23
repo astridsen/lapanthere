@@ -532,8 +532,8 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -719,6 +719,11 @@ h3 {
     color: #333333!important;
 }
 
+.text-footer {
+    font-size: 14px;
+    color:#333!important;
+}
+
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -745,6 +750,10 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.dark-grey {
+    color:#333!important;
 }
 
 .portfolio-thumb {
@@ -786,9 +795,13 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.tc-dark-grey {
+    color:#333!important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333!important;
 }
 
 .btn-atomic-tangerine:hover {
