@@ -363,13 +363,13 @@ a:hover {
 }
 
 @media (min-width: 768px) {
-    /*.site-navigation {
+    .site-navigation {
         position: absolute;
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
-    }*/
+    }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -682,6 +682,7 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
+    font-size:15px;
     margin: auto auto auto auto;
 }
 
@@ -706,7 +707,9 @@ p {
 
 h2 {
     font-size: 22px;
-    line-height: 1.4em;
+    line-height: 1.2em;
+    max-width: 700px;
+    font-weight: 500;
 }
 
 h3 {
@@ -728,6 +731,11 @@ h1 {
 
 h4 {
     color: #333333!important;
+}
+
+.citation-ref{
+    font-size: 22px;
+    font-weight:lighter;
 }
 
 .icons {
@@ -775,7 +783,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
